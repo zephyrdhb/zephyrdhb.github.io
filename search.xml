@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Test Code</title>
+      <link href="/2022/05/01/Test-Code/"/>
+      <url>/2022/05/01/Test-Code/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试代码块"><a href="#测试代码块" class="headerlink" title="测试代码块"></a>测试代码块</h2><pre class=" language-#"><code class="language-#">代码块代码块```# 显示需要加 # ，Markdown中不需要加</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mac连接Samba服务(仅限ipv6)</title>
       <link href="/2022/05/01/Mac%E8%BF%9E%E6%8E%A5Samba%E6%9C%8D%E5%8A%A1-%E4%BB%85%E9%99%90ipv6/"/>
       <url>/2022/05/01/Mac%E8%BF%9E%E6%8E%A5Samba%E6%9C%8D%E5%8A%A1-%E4%BB%85%E9%99%90ipv6/</url>
