@@ -4,19 +4,13 @@
   
     
     <entry>
-      <title>记录一些hexo使用时的坑</title>
+      <title></title>
       <link href="/2022/05/02/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9Bhexo%E4%BD%BF%E7%94%A8%E6%97%B6%E7%9A%84%E5%9D%91/"/>
       <url>/2022/05/02/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9Bhexo%E4%BD%BF%E7%94%A8%E6%97%B6%E7%9A%84%E5%9D%91/</url>
       
-        <content type="html"><![CDATA[<h4 id="01-代码块使用时“-”大括号显示为“-amp-123”"><a href="#01-代码块使用时“-”大括号显示为“-amp-123”" class="headerlink" title="[01] 代码块使用时“{”大括号显示为“&amp;#123”"></a>[01] 代码块使用时“{”大括号显示为“&amp;#123”</h4><p><img src="C:\Users\Zephyr\Desktop\hexo\zephyrdhb.github.io\source_posts\记录一些hexo使用时的坑\1.png" alt="1651466029560"></p><p> node_modules&#x2F;hexo-prism-plugin&#x2F;src&#x2F;index.js文件中map里未支持大括号，尝试补上”&amp;#123;”与”&amp;#125;”后发现有效，即在map中加上对应字符即可:</p><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">const</span> map <span class="token operator">=</span> <span class="token punctuation">{</span>  <span class="token string">'&amp;#39;'</span><span class="token punctuation">:</span> <span class="token string">'\''</span><span class="token punctuation">,</span>  <span class="token string">'&amp;amp;'</span><span class="token punctuation">:</span> <span class="token string">'&amp;'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;gt;'</span><span class="token punctuation">:</span> <span class="token string">'>'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;lt;'</span><span class="token punctuation">:</span> <span class="token string">'&lt;'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;quot;'</span><span class="token punctuation">:</span> <span class="token string">'"'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;#123;'</span><span class="token punctuation">:</span> <span class="token string">'{'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;#125;'</span><span class="token punctuation">:</span> <span class="token string">'}'</span><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>]]></content>
+        <content type="html"><![CDATA[<p>title: 记录一些hexo使用时的坑<br>date: 2022-05-02 12:32:19<br>tags: hexo</p><h4 id="01-代码块使用时“-”大括号显示为“-amp-123”"><a href="#01-代码块使用时“-”大括号显示为“-amp-123”" class="headerlink" title="[01] 代码块使用时“{”大括号显示为“&amp;#123”"></a>[01] 代码块使用时“{”大括号显示为“&amp;#123”</h4><img src="/2022/05/02/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9Bhexo%E4%BD%BF%E7%94%A8%E6%97%B6%E7%9A%84%E5%9D%91/1.png" class=""><p> node_modules&#x2F;hexo-prism-plugin&#x2F;src&#x2F;index.js文件中map里未支持大括号，尝试补上”&amp;#123;”与”&amp;#125;”后发现有效，即在map中加上对应字符即可:</p><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">const</span> map <span class="token operator">=</span> <span class="token punctuation">{</span>  <span class="token string">'&amp;#39;'</span><span class="token punctuation">:</span> <span class="token string">'\''</span><span class="token punctuation">,</span>  <span class="token string">'&amp;amp;'</span><span class="token punctuation">:</span> <span class="token string">'&amp;'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;gt;'</span><span class="token punctuation">:</span> <span class="token string">'>'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;lt;'</span><span class="token punctuation">:</span> <span class="token string">'&lt;'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;quot;'</span><span class="token punctuation">:</span> <span class="token string">'"'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;#123;'</span><span class="token punctuation">:</span> <span class="token string">'{'</span><span class="token punctuation">,</span>  <span class="token string">'&amp;#125;'</span><span class="token punctuation">:</span> <span class="token string">'}'</span><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>]]></content>
       
       
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-        </tags>
       
     </entry>
     
@@ -49,6 +43,12 @@
         <content type="html"><![CDATA[<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><h3 id="1-安装-IINA"><a href="#1-安装-IINA" class="headerlink" title="1.安装 IINA"></a>1.安装 IINA</h3><h5 id="点击IINA，http-1-116-242-39-8888-down-pwH0obovCeZs"><a href="#点击IINA，http-1-116-242-39-8888-down-pwH0obovCeZs" class="headerlink" title="点击IINA，http://1.116.242.39:8888/down/pwH0obovCeZs"></a>点击IINA，<a href="http://1.116.242.39:8888/down/pwH0obovCeZs">http://1.116.242.39:8888/down/pwH0obovCeZs</a></h5><h3 id="2-连接网络硬盘"><a href="#2-连接网络硬盘" class="headerlink" title="2.连接网络硬盘"></a>2.连接网络硬盘</h3><h5 id="2-1-打开finder，按下command-K，输入smb-x2F-x2F-nas-zephyrd-cn，点击连接"><a href="#2-1-打开finder，按下command-K，输入smb-x2F-x2F-nas-zephyrd-cn，点击连接" class="headerlink" title="2.1 打开finder，按下command+K，输入smb:&#x2F;&#x2F;***@nas.zephyrd.cn，点击连接"></a>2.1 打开finder，按下command+K，输入smb:&#x2F;&#x2F;***@nas.zephyrd.cn，点击连接</h5><img src="/2022/05/01/Mac%E8%BF%9E%E6%8E%A5Samba%E6%9C%8D%E5%8A%A1-%E4%BB%85%E9%99%90ipv6/aa.jpg" class="" title="This is an image"><h5 id="2-2-输入密码为"><a href="#2-2-输入密码为" class="headerlink" title="2.2 输入密码为: ******"></a>2.2 输入密码为: ******</h5><img src="/2022/05/01/Mac%E8%BF%9E%E6%8E%A5Samba%E6%9C%8D%E5%8A%A1-%E4%BB%85%E9%99%90ipv6/bb.jpg" class=""><h5 id="2-3-双击选择Video，不要选Mine因为没有权限"><a href="#2-3-双击选择Video，不要选Mine因为没有权限" class="headerlink" title="2.3 双击选择Video，不要选Mine因为没有权限"></a>2.3 双击选择Video，不要选Mine因为没有权限</h5><img src="/2022/05/01/Mac%E8%BF%9E%E6%8E%A5Samba%E6%9C%8D%E5%8A%A1-%E4%BB%85%E9%99%90ipv6/cc.png" class=""><h5 id="2-4-选择Video后会加载好网络硬盘，如图"><a href="#2-4-选择Video后会加载好网络硬盘，如图" class="headerlink" title="2.4 选择Video后会加载好网络硬盘，如图"></a>2.4 选择Video后会加载好网络硬盘，如图</h5><img src="/2022/05/01/Mac%E8%BF%9E%E6%8E%A5Samba%E6%9C%8D%E5%8A%A1-%E4%BB%85%E9%99%90ipv6/cc.jpg" class=""><h5 id="2-5-然后右键视频选择IINA打开，然后会自动加载字幕，我都放在一起了"><a href="#2-5-然后右键视频选择IINA打开，然后会自动加载字幕，我都放在一起了" class="headerlink" title="2.5 然后右键视频选择IINA打开，然后会自动加载字幕，我都放在一起了"></a>2.5 然后右键视频选择IINA打开，然后会自动加载字幕，我都放在一起了</h5><img src="/2022/05/01/Mac%E8%BF%9E%E6%8E%A5Samba%E6%9C%8D%E5%8A%A1-%E4%BB%85%E9%99%90ipv6/dd.jpg" class=""><h3 id="3-看"><a href="#3-看" class="headerlink" title="3. 看"></a>3. 看</h3><img src="/2022/05/01/Mac%E8%BF%9E%E6%8E%A5Samba%E6%9C%8D%E5%8A%A1-%E4%BB%85%E9%99%90ipv6/ee.jpg" class="">]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -87,6 +87,12 @@
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> Hello World </tag>
+            
+        </tags>
       
     </entry>
     
