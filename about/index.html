@@ -552,7 +552,7 @@
             xAxis: [
                 {
                     type: 'category',
-                    data: ["hexo","教程","test","Hello World"]
+                    data: ["hexo","教程","Hello World","test"]
                 }
             ],
             yAxis: [
@@ -742,14 +742,14 @@
             
             
             
-            <a href="/tags/test/">
-                <span class="chip center-align waves-effect waves-light chip-default">test</span>
+            <a href="/tags/Hello-World/">
+                <span class="chip center-align waves-effect waves-light chip-default">Hello World</span>
             </a>
             
             
             
-            <a href="/tags/Hello-World/">
-                <span class="chip center-align waves-effect waves-light chip-default">Hello World</span>
+            <a href="/tags/test/">
+                <span class="chip center-align waves-effect waves-light chip-default">test</span>
             </a>
             
             
@@ -1058,7 +1058,8 @@ $(function () {
 
 
 <script type="text/javascript">
-    $.getScript("https://files.islu.cn/static/pjax/pjax.min.js",loadPjax)
+    // $.getScript("https://files.islu.cn/static/pjax/pjax.min.js",loadPjax)
+    $.getScript("https://cdn.jsdelivr.net/gh/zephyrdhb/zephyrdhb.github.io@main/libs/pjax/pjax.js",loadPjax)
     function loadPjax(){
         var pjax = new Pjax({
             selectors: [
