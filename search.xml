@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>ipad看Samba服务视频</title>
+      <link href="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/"/>
+      <url>/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/</url>
+      
+        <content type="html"><![CDATA[<h3 id="一、安装zerotier"><a href="#一、安装zerotier" class="headerlink" title="一、安装zerotier"></a>一、安装zerotier</h3><h4 id="1-登录美区apple账号"><a href="#1-登录美区apple账号" class="headerlink" title="1.登录美区apple账号"></a>1.登录美区apple账号</h4><h4 id="2-安装配置zerotier"><a href="#2-安装配置zerotier" class="headerlink" title="2.安装配置zerotier"></a>2.安装配置zerotier</h4><h5 id="2-1-加入网络-12ac4a1e716ad8f2"><a href="#2-1-加入网络-12ac4a1e716ad8f2" class="headerlink" title="2.1 加入网络 12ac4a1e716ad8f2"></a>2.1 加入网络 12ac4a1e716ad8f2</h5><img src="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/image-20220517233741950.png" class=""><img src="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/image-20220517233813139.png" class=""><img src="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/674A23B88BDC34B1BF2F7F58CD1EC1C8.png" class=""><h5 id="2-2-打开vpn，加入局域网"><a href="#2-2-打开vpn，加入局域网" class="headerlink" title="2.2 打开vpn，加入局域网"></a>2.2 打开vpn，加入局域网</h5><img src="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/image-20220517233858121.png" class=""><h3 id="二、下载安装zFuse，并按照图片顺序执行"><a href="#二、下载安装zFuse，并按照图片顺序执行" class="headerlink" title="二、下载安装zFuse，并按照图片顺序执行"></a>二、下载安装zFuse，并按照图片顺序执行</h3><h4 id="1-点击左侧我的设备，然后点击SMB"><a href="#1-点击左侧我的设备，然后点击SMB" class="headerlink" title="1.点击左侧我的设备，然后点击SMB"></a>1.点击左侧我的设备，然后点击SMB</h4><img src="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/image-20220517234054293.png" class=""><h4 id="2-点击右上角添加"><a href="#2-点击右上角添加" class="headerlink" title="2.点击右上角添加"></a>2.点击右上角添加</h4><img src="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/208B0A9395B03324DF8F777692F33F44.png" class=""><h4 id="3-参照图片中输入："><a href="#3-参照图片中输入：" class="headerlink" title="3.参照图片中输入："></a>3.参照图片中输入：</h4><p>网址：10.243.72.234</p><p>路径：”&#x2F;Video”，注意有个杠”&#x2F;“，并且V为大写</p><p>用户名：zmy，密码：myz123</p><img src="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/image-20220517234400398.png" class=""><h3 id="三、点击视频即可观看"><a href="#三、点击视频即可观看" class="headerlink" title="三、点击视频即可观看"></a>三、点击视频即可观看</h3><h4 id="3-1-点击flv视频文件，同名后缀为srt的文件为字幕"><a href="#3-1-点击flv视频文件，同名后缀为srt的文件为字幕" class="headerlink" title="3.1 点击flv视频文件，同名后缀为srt的文件为字幕"></a>3.1 点击flv视频文件，同名后缀为srt的文件为字幕</h4><img src="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/image-20220517235016218.png" class=""><h4 id="3-2-软件的一些手势操作"><a href="#3-2-软件的一些手势操作" class="headerlink" title="3.2 软件的一些手势操作"></a>3.2 软件的一些手势操作</h4><img src="/2022/05/18/ipad%E7%9C%8BSamba%E6%9C%8D%E5%8A%A1%E8%A7%86%E9%A2%91/image-20220517235117579.png" class="">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>记录一些hexo使用时的坑</title>
       <link href="/2022/05/02/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9Bhexo%E4%BD%BF%E7%94%A8%E6%97%B6%E7%9A%84%E5%9D%91/"/>
       <url>/2022/05/02/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9Bhexo%E4%BD%BF%E7%94%A8%E6%97%B6%E7%9A%84%E5%9D%91/</url>
