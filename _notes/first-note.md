@@ -1,5 +1,8 @@
 ---
-title: First Note
+title: "First Technical Note"
+date: 2023-07-01
+collection: notes
+layout: notes
 ---
 
 ## First Technical Note

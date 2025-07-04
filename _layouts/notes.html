@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Notes - My Personal Website</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Notes</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -19,6 +19,10 @@
         </div>
         
         <div class="note-content">
+            {% unless page.collection == 'notes' %}
+              <p>Click on a note title to view its content here.</p>
+            {% endunless %}
+            
             {{ content }}
         </div>
         
