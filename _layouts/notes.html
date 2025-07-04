@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Notes - My Personal Website</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Technical Notes</h1>
+        
+        <div class="notes-list">
+            <h2>All Notes</h2>
+            <ul>
+                {% for file in site.static_files %}
+                    {% if file.path contains 'markdowns' and file.extname == '.md' %}
+                        <li><a href="{{ file.path | replace: 'markdowns', 'notes' | replace: '.md', '.html' }}">{{ file.name | replace: '-', ' ' | capitalize }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <div class="note-content">
+            {{ content }}
+        </div>
+        
+        <p><a href="/">Back to Home</a></p>
+    </div>
+</body>
+</html>
