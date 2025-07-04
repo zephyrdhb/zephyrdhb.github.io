@@ -12,10 +12,8 @@
         <div class="notes-list">
             <h2>All Notes</h2>
             <ul>
-                {% for file in site.static_files %}
-                    {% if file.path contains 'markdowns' and file.extname == '.md' %}
-                        <li><a href="{{ file.path | replace: 'markdowns', 'notes' | replace: '.md', '.html' }}">{{ file.name | replace: '-', ' ' | capitalize }}</a></li>
-                    {% endif %}
+                {% for note in site.notes %}
+                    <li><a href="{{ note.url }}">{{ note.title }}</a></li>
                 {% endfor %}
             </ul>
         </div>
