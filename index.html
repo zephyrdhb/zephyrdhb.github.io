@@ -1,14 +1,17 @@
 ---
-layout: home
+layout: default
+title: ZhongUncle 的博客主页
 ---
+<h1>一些介绍</h1>
+<p>我是 ZhongUncle，欢迎来到我的博客。本站点主要用于备份我发在 CSDN 上的博客，以及一些有趣尝试的纪录</p>
 
-<h2>Welcome to My Personal Website</h2>
+<h1>最新</h1>
 
-<p>This is my personal website where I share my resume, technical notes, and blog posts.</p>
-
-<h3>Navigation</h3>
 <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/resume">Resume</a></li>
-    <li><a href="/notes">Notes</a></li>
+    {% for blog in site.blogs %}
+    <li>
+        <h2><a href="{{ blog.url }}">{{ blog.title }}</a></h2>
+        {{ blog.excerpt }}
+    </li>
+    {% endfor %}
 </ul>
