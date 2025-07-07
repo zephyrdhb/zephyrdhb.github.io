@@ -53,25 +53,37 @@
 
   <ul class="post-list">
     
-      <li>
+      <li class="post-item">
         <span class="post-meta">Feb 1, 2023</span>
         <h2>
           <a class="post-link" href="/2023/02/01/test-post-2-copy/">测试文章 2</a>
         </h2>
+        
+          <p class="post-excerpt"><p>这是第 2 篇测试文章内容。</p>
+</p>
+        
       </li>
     
-      <li>
+      <li class="post-item">
         <span class="post-meta">Jan 1, 2023</span>
         <h2>
           <a class="post-link" href="/2023/01/01/test-post-1/">测试文章 1</a>
         </h2>
+        
+          <p class="post-excerpt"><p>这是第 1 篇测试文章内容。</p>
+</p>
+        
       </li>
     
-      <li>
+      <li class="post-item">
         <span class="post-meta">Jan 1, 2023</span>
         <h2>
           <a class="post-link" href="/2023/01/01/test-post-1-copy/">测试文章 1</a>
         </h2>
+        
+          <p class="post-excerpt"><p>这是第 1 篇测试文章内容。</p>
+</p>
+        
       </li>
     
   </ul>
@@ -91,6 +103,37 @@
   </div>
 
   <style>
+    .post-list {
+      list-style: none;
+      padding: 0;
+    }
+    .post-item {
+      padding: 1.5em 0;
+      border-bottom: 1px solid #eee;
+    }
+    .post-item:last-child {
+      border-bottom: none;
+    }
+    .post-meta {
+      color: #666;
+      font-size: 0.9em;
+      display: block;
+      margin-bottom: 0.5em;
+    }
+    .post-link {
+      color: #333;
+      font-size: 1.2em;
+      text-decoration: none;
+    }
+    .post-link:hover {
+      color: #0074d9;
+    }
+    .post-excerpt {
+      color: #555;
+      font-size: 0.95em;
+      line-height: 1.5;
+      margin: 0.8em 0 0;
+    }
     .pagination {
       text-align: center;
       margin: 2em 0;

@@ -13,11 +13,14 @@ pagination:
 
   <ul class="post-list">
     {% for post in paginator.posts %}
-      <li>
+      <li class="post-item">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
+        {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt }}</p>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
@@ -41,6 +44,37 @@ pagination:
   </div>
 
   <style>
+    .post-list {
+      list-style: none;
+      padding: 0;
+    }
+    .post-item {
+      padding: 1.5em 0;
+      border-bottom: 1px solid #eee;
+    }
+    .post-item:last-child {
+      border-bottom: none;
+    }
+    .post-meta {
+      color: #666;
+      font-size: 0.9em;
+      display: block;
+      margin-bottom: 0.5em;
+    }
+    .post-link {
+      color: #333;
+      font-size: 1.2em;
+      text-decoration: none;
+    }
+    .post-link:hover {
+      color: #0074d9;
+    }
+    .post-excerpt {
+      color: #555;
+      font-size: 0.95em;
+      line-height: 1.5;
+      margin: 0.8em 0 0;
+    }
     .pagination {
       text-align: center;
       margin: 2em 0;
