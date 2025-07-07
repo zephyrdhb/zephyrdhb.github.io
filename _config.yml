@@ -1,1 +1,18 @@
+# 在文件开头或适当位置添加以下内容
 destination: docs
+
+# Pagination configuration
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Plugins configuration
+plugins:
+  - jekyll-paginate
+
+# Base URL configuration
+baseurl: ""

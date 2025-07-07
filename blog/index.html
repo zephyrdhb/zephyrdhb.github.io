@@ -1,0 +1,72 @@
+---
+layout: default
+title: Blog
+pagination: 
+  enabled: true
+  collection: _posts
+  per_page: 10
+  permalink: /blog/page/:num/
+---
+
+<div class="home">
+  <h1 class="page-heading">{{ page.title }}</h1>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous disabled">Previous</span>
+    {% endif %}
+    
+    <span class="page_number">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next</a>
+    {% else %}
+      <span class="next disabled">Next</span>
+    {% endif %}
+  </div>
+
+  <style>
+    .pagination {
+      text-align: center;
+      margin: 2em 0;
+      padding: 1em 0;
+      border-top: 1px solid #eee;
+    }
+    .pagination a, .pagination span {
+      display: inline-block;
+      padding: 0.5em 1em;
+      margin: 0 0.5em;
+      border-radius: 3px;
+    }
+    .pagination a {
+      color: #0074d9;
+      text-decoration: none;
+      border: 1px solid #0074d9;
+      transition: all 0.2s ease;
+    }
+    .pagination a:hover {
+      background: #0074d9;
+      color: white;
+    }
+    .pagination .disabled {
+      color: #999;
+      border: 1px solid #ddd;
+      cursor: not-allowed;
+    }
+  </style>
+</div>
